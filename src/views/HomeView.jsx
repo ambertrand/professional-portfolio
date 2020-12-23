@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 const HomeView = () => {
     return (
-        <div className="App outerContainer">
-            <Navbar />
+        <div className="outerContainer">
             <Header />
+            <Navbar />
             <Footer />
         </div>
     )

@@ -6,11 +6,13 @@ import './App.css';
 
 function App() {
   return (
-   <Router>
-     <Switch>
-       <Route exact path="/" component={HomeView}/>
-     </Switch>
-   </Router>
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomeView} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

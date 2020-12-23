@@ -1,14 +1,19 @@
 .App {
   text-align: center;
+  background-color: #086788;
 }
-
 
 .outerContainer {
   position: relative;
-  /* margin-bottom: 40px; */
+}
+
+.link {
+  color: #ffffff;
+  font-size: 24px;
 }
 
 .footer {
+  background-color: #086788;
   position: fixed;
   bottom: 0px;
   width: 100vw;
