@@ -5,7 +5,7 @@ function Header() {
     return (
         <Container className="headBackground">
             <div>
-                <h1 className="display-5 text-center">Alex Bertrand</h1>
+                <h1 className="display-4 text-center text-white"><strong>Alex Bertrand</strong></h1>
             </div>
         </Container>
     );
