@@ -1,24 +1,65 @@
 .App {
-  text-align: center;
   background-color: #086788;
 }
 
-.outerContainer {
-  position: relative;
-}
-
+/* Nav  */
 .link {
   color: #ffffff;
   font-size: 24px;
 }
 
+/* Footer  */
 .footer {
   background-color: #086788;
   position: fixed;
+  display: flex;
+  justify-content: center;
   bottom: 0px;
   width: 100vw;
 }
 
 span.text {
   font-size: 20px;
+}
+
+/* Homepage */
+.intro {
+  min-height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.headshot-img {
+  order: 1;
+  max-width: 40rem;
+}
+
+img {
+  max-width: 60rem;
+  padding: 10px;
+  margin: 2rem;
+}
+
+.name {
+  order: 2;
+  padding: 2rem 0 5rem 2rem;
+}
+
+
+a.downArrow {
+  order: 3;
+}
+
+i.arrow {
+  position: relative;
+  bottom: -10vh;
+  color: #ffffff;
+}
+
+/* Homeview  */
+.outerContainer {
+  position: relative;
 }
