@@ -1,5 +1,6 @@
 .App {
   background-color: #086788;
+  text-align: center;
 }
 
 /* Nav  */
@@ -23,6 +24,11 @@ span.text {
 }
 
 /* Homepage */
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 .intro {
   min-height: 95vh;
   width: 100%;
@@ -38,6 +44,7 @@ span.text {
 }
 
 img {
+  width: 90%;
   max-width: 60rem;
   padding: 10px;
   margin: 2rem;
@@ -53,9 +60,9 @@ a.downArrow {
   order: 3;
 }
 
-i.arrow {
+.arrow {
   position: relative;
-  bottom: -10vh;
+  bottom: -20vh;
   color: #ffffff;
 }
 
