@@ -90,6 +90,29 @@ a.downArrow {
   padding: 3rem 2rem 0 3rem;
 }
 
+/* SkillsTable  */
+.tableHeader {
+  color: #086788;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.theader {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
+.trow {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+.upArrow {
+  color: #086788;
+  padding-top: 6rem;
+}
+
 /* Homeview  */
 .outerContainer {
   position: relative;

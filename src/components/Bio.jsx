@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import SkillsTable from './SkillsTable';
 
 function Bio() {
     return (
@@ -18,6 +19,7 @@ function Bio() {
                     When I'm not working, you will find me exploring the outdoors such as running, hiking, skiing or golfing with my fiancée Nicole. 
                 </p>
             </div>
+            <SkillsTable />
         </Container>
     )
 }
