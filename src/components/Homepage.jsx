@@ -1,35 +1,38 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-// import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import headshot from '../img/Alex-circle.png';
 
 function HomePage() {
     return (
         <Container className="intro" id="homepage">
-            <div className="row content">
-                {/* Headshot  */}
-                <div className="headshot-img">
-                    <img src={headshot} className="img-fluid" alt="Alex Headshot" />
-                </div>
-
+            <Row className="content">
+                <Col sm={4}>
+                    {/* Headshot  */}
+                    <div className="headshot-img">
+                        <img src={headshot} className="img-fluid" alt="Alex Headshot" />
+                    </div>
+                </Col>
+                <Col sm={8}>
                 {/* Name */}
                 <div className="name">
-                    <h1 className="display-3 text-center text-white">Hi I'm<br /><strong>Alex Bertrand</strong></h1>
+                    <h1 className="display-3 text-white">Hi, I'm<br /><strong>Alex Bertrand</strong></h1>
+                </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={12}>
+                    {/* Bio  */}
+                    <a href="#bio" className="downArrow">
+                        <div>
+                            <i className="arrow fa fa-chevron-circle-down fa-3x" />
+                        </div>
+                    </a>
 
-                    {/* Projects  */}
-                    {/* <Link to="/projects">
-                        <Button>Projects</Button>
-                    </Link> */}
-                </div>
-            </div>
-            {/* Bio  */}
-            <a href="#bio" className="downArrow">
-                <div>
-                    <i className="arrow fa fa-chevron-circle-down fa-3x" />
-                </div>
-            </a>
-        </Container>
+                </Col>
+            </Row >
+        </Container >
     )
 }
 

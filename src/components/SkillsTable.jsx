@@ -1,14 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 
 function Skills() {
     return (
         <Container>
-            <div className="row tableHeader">
-                <div className="col-sm-12">
+            <Row className="tableHeader">
+                <Col sm={12}>
                     <h2>SKILLS &amp; TECHNOLOGIES</h2>
-                    <Table>
+                    {/* <Table>
                         <thead>
                             <tr>
                                 <th className="theader">Languages &nbsp;<i className="fa fa-code fa-2x"></i></th>
@@ -25,14 +27,16 @@ function Skills() {
                                 <td>Organization, Communication,<br /> Teamwork, Problem Solving</td>
                             </tr>
                         </tbody>
-                    </Table>
+                    </Table> */}
+                </Col>
+                <Col sm={12}>
                     <a href="#homepage">
                         <div className="upArrow">
                             <i className="fa fa-chevron-circle-up fa-3x" />
                         </div>
                     </a>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </Container>
     )
 }
