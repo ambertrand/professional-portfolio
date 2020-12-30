@@ -6,7 +6,7 @@ import headshot from '../img/Alex-circle.png';
 
 function HomePage() {
     return (
-        <Container className="intro" id="homepage">
+        <Container className="intro">
             <Row className="content">
                 <Col sm={4}>
                     {/* Headshot  */}

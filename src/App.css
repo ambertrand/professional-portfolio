@@ -49,14 +49,13 @@ img {
 
 
 a.downArrow {
-  /* order: 2; */
   display: flex;
   justify-content: center;
 }
 
 .arrow {
   position: relative;
-  bottom: -5vh;
+  bottom: -10vh;
   color: #ffffff;
 }
 
@@ -80,7 +79,6 @@ a.downArrow {
   flex-direction: row;
   justify-content: center;
   text-align: justify;
-  /* max-width: 80vw; */
   padding: 2rem 0 0 0;
 }
 
