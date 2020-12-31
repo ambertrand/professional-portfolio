@@ -110,7 +110,23 @@ a.downArrow {
 
 .upArrow {
   color: #086788;
-  /* padding-top: 1rem; */
+}
+
+/* ProjCarousel  */
+.projects {
+  min-height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ProjCard */
+.projCard {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
 }
 
 /* Homeview  */
