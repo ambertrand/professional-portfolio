@@ -129,6 +129,12 @@ a.downArrow {
   padding-bottom: 3rem;
 }
 
+.projLink {
+  color: #086788;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Homeview  */
 .outerContainer {
   position: relative;
