@@ -55,7 +55,7 @@ a.downArrow {
 
 .arrow {
   position: relative;
-  bottom: -10vh;
+  bottom: -5vh;
   color: #ffffff;
 }
 
@@ -85,24 +85,32 @@ a.downArrow {
 /* SkillsTable  */
 .tableHeader {
   color: #086788;
+  padding-top: 1rem;
+}
+
+.skillsTable {
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .theader {
   font-family: 'Varela Round', sans-serif;
   font-size: 20px;
+  padding-right: 2rem;
+  order: 1;
 }
 
 .trow {
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
+  padding-right: 2rem;
+  order: 2;
 }
 
 .upArrow {
   color: #086788;
-  padding-top: 2rem;
+  /* padding-top: 1rem; */
 }
 
 /* Homeview  */

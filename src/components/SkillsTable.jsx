@@ -2,35 +2,36 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Table from 'react-bootstrap/Table';
 
 function Skills() {
     return (
         <Container>
-            <Row className="tableHeader">
+            <Row>
                 <Col sm={12}>
-                    <h2>SKILLS &amp; TECHNOLOGIES</h2>
-                    <div>
-                        <Table responsive="sm, md">
-                            <thead>
-                                <tr>
-                                    <th className="theader">Languages &nbsp;<i className="fa fa-code fa-2x"></i></th>
-                                    <th className="theader">Frameworks/Libraries &nbsp; <i className="fa fa-code-fork fa-2x"></i></th>
-                                    <th className="theader">Tools &nbsp; <i className="fa fa-terminal fa-2x"></i></th>
-                                    <th className="theader">Skills &nbsp; <i className="fa fa-handshake-o fa-2x"></i></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr className="trow">
-                                    <td>HTML5, CSS,<br /> Javascript, JSX</td>
-                                    <td>React, Express,<br /> Bootstrap, Materialize</td>
-                                    <td>MongoDB, MySQL,<br /> Git, GitHub</td>
-                                    <td>Organization, Communication,<br /> Teamwork, Problem Solving</td>
-                                </tr>
-                            </tbody>
-                        </Table>
+                    <h2 className="tableHeader text-center">SKILLS &amp; TECHNOLOGIES</h2>
+                    <div className="skillsTable">
+                        <div className="col-sm-12 col-md-3">
+                            <h3 className="theader">Languages &nbsp; <i className="fa fa-code fa-2x"></i></h3>
+                            <p className="trow">HTML5, CSS,<br /> Javascript, JSX</p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                            <h3 className="theader">Frameworks &nbsp; <i className="fa fa-code-fork fa-2x"></i></h3>
+                            <p className="trow">React, Express,<br /> Bootstrap, Materialize</p>
+                        </div>
+                    </div>
+                    <div className="skillsTable">
+                        <div className="col-sm-12 col-md-3">
+                            <h3 className="theader">Tools &nbsp; <i className="fa fa-terminal fa-2x"></i></h3>
+                            <p className="trow">MongoDB, MySQL,<br /> Git, GitHub</p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                            <h3 className="theader">Soft Skills &nbsp; <i className="fa fa-handshake-o fa-2x"></i></h3>
+                            <p className="trow">Organization, Communication,<br /> Teamwork, Problem-Solving</p>
+                        </div>
                     </div>
                 </Col>
+            </Row>
+            <Row>
                 <Col sm={12}>
                     <a href="/">
                         <div className="upArrow">
