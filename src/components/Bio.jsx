@@ -6,7 +6,7 @@ import SkillsTable from './SkillsTable';
 
 function Bio() {
     return (
-        <Container className="about-me" id="bio">
+        <Container className="about-me animate_animated animate_slideInUp" id="bio">
             <Row>
                 <Col xs={12} sm={3}>
                     <h2 className="about-title">ABOUT</h2>

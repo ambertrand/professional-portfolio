@@ -24,7 +24,7 @@ function HomePage() {
             <Row>
                 <Col sm={12}>
                     {/* Bio  */}
-                    <a href="#bio" className="downArrow">
+                    <a href="#bio" className="downArrow animate_animated animate_bounce">
                         <div>
                             <i className="arrow fa fa-chevron-circle-down fa-3x" />
                         </div>

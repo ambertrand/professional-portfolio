@@ -135,6 +135,26 @@ a.downArrow {
   font-weight: bold;
 }
 
+/* Contact  */
+.contactHeader {
+  top: 25vh;
+}
+
+.contactInfo {
+  min-height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactItem {
+  color: #ffffff;
+  padding-bottom: 2rem;
+  font-size: 20px;
+}
+
 /* Homeview  */
 .outerContainer {
   position: relative;
