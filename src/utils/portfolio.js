@@ -5,7 +5,7 @@ const portfolio = [
         "image": "https://i.ibb.co/6ZkB1JC/while-youre-there.png",
         "title": "While You're There",
         "description": "Have you ever gone shopping for someone and forgot something?  We definitely have!  Now with Covid-19 it is more important than ever to remember shopping items in one trip.  Which is exactly what brought us to the idea for While You're There.",
-        "tech": "React, React-Bootstrap, Auth0, FontAwesome, NodeJS, MySQL, Sequelize, Express, nodemon, Balsamiq, Trello",
+        "tech": "React, React-Bootstrap, Auth0, FontAwesome, Socket.io, NodeJS, MySQL, Sequelize, Express, nodemon, Balsamiq, Trello",
         "github": "https://github.com/ambertrand/While-Youre-There",
         "deployed": "https://while-youre-there.herokuapp.com/"
     },

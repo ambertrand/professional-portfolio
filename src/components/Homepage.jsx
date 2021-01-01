@@ -6,7 +6,7 @@ import headshot from '../img/Alex-circle.png';
 
 function HomePage() {
     return (
-        <Container className="intro">
+        <Container className="intro animate__animated animate__slideInUp">
             <Row className="content">
                 <Col sm={4}>
                     {/* Headshot  */}
@@ -24,7 +24,7 @@ function HomePage() {
             <Row>
                 <Col sm={12}>
                     {/* Bio  */}
-                    <a href="#bio" className="downArrow animate_animated animate_bounce">
+                    <a href="#bio" className="downArrow animate__animated animate__bounce animate__infinite">
                         <div>
                             <i className="arrow fa fa-chevron-circle-down fa-3x" />
                         </div>

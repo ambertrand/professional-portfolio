@@ -53,6 +53,10 @@ a.downArrow {
   justify-content: center;
 }
 
+.animate__animated.animate__bounce {
+  animation-duration: 2s;
+}
+
 .arrow {
   position: relative;
   bottom: -5vh;

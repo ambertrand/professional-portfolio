@@ -14,7 +14,7 @@ function ProjCarousel() {
                     return (
                         <Carousel.Item key={info.key}>
                             <Row className="projCard">
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '40rem' }}>
                                     <Card.Img variant="top" src={info.image} />
                                     <Card.Body>
                                         <Card.Title>{info.title}</Card.Title>
