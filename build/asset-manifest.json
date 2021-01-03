@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/professional-portfolio/static/css/main.803a921a.chunk.css",
+    "main.js": "/professional-portfolio/static/js/main.2f3ebe56.chunk.js",
+    "main.js.map": "/professional-portfolio/static/js/main.2f3ebe56.chunk.js.map",
+    "runtime-main.js": "/professional-portfolio/static/js/runtime-main.30949aff.js",
+    "runtime-main.js.map": "/professional-portfolio/static/js/runtime-main.30949aff.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/professional-portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.e78e5169.chunk.js": "/professional-portfolio/static/js/2.e78e5169.chunk.js",
+    "static/js/2.e78e5169.chunk.js.map": "/professional-portfolio/static/js/2.e78e5169.chunk.js.map",
+    "index.html": "/professional-portfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/professional-portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.803a921a.chunk.css.map": "/professional-portfolio/static/css/main.803a921a.chunk.css.map",
+    "static/js/2.e78e5169.chunk.js.LICENSE.txt": "/professional-portfolio/static/js/2.e78e5169.chunk.js.LICENSE.txt",
+    "static/media/Alex-circle.0d288ac2.png": "/professional-portfolio/static/media/Alex-circle.0d288ac2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30949aff.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.e78e5169.chunk.js",
+    "static/css/main.803a921a.chunk.css",
+    "static/js/main.2f3ebe56.chunk.js"
+  ]
+}
