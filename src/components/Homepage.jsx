@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import headshot from '../img/Alex-circle.png';
+// import headshot from '../img/Alex-circle.png';
+import headshot from '../img/Alex-headshot.jpg';
 
 function HomePage() {
   return (
@@ -11,16 +12,20 @@ function HomePage() {
         <Col sm={4}>
           {/* Headshot  */}
           <div className='headshot-img'>
-            <img src={headshot} className='img-fluid' alt='Alex Headshot' />
+            <img
+              src={headshot}
+              className='headshot img-fluid'
+              alt='Alex Headshot'
+            />
           </div>
         </Col>
-        <Col sm={8}>
+        <Col>
           {/* Name */}
           <div className='name'>
-            <h1 className='display-3 text-white'>
-              Hello, I'm
+            <h1 className='display-3'>
+              Hello,
               <br />
-              <strong>Alex Bertrand</strong>
+              I'm <strong>Alex</strong>
             </h1>
           </div>
         </Col>
@@ -28,14 +33,14 @@ function HomePage() {
       <Row>
         <Col sm={12}>
           {/* Bio  */}
-          <a
+          {/* <a
             href='#bio'
             className='downArrow animate__animated animate__bounce animate__infinite'
           >
             <div>
               <i className='arrow fa fa-chevron-circle-down fa-3x' />
             </div>
-          </a>
+          </a> */}
         </Col>
       </Row>
     </Container>
@@ -43,3 +48,12 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// SMALL EDITS //
+// -Edit Bio section
+// -Color scheme
+
+// MAJOR EDITS //
+// -Responsiveness
+// -Home page re-design
+// -About page re-design

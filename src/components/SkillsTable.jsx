@@ -16,7 +16,7 @@ function Skills() {
               </h3>
               <p className='trow'>
                 HTML5, CSS,
-                <br /> Javascript, JSX
+                <br /> JavaScript, JSX
               </p>
             </div>
             <div className='col-sm-12 col-md-3'>
