@@ -76,6 +76,7 @@ a.downArrow {
 .about-me {
   background-color: #ffffff;
   min-height: 95vh;
+  border-radius: 10px;
 }
 
 .about-title {
@@ -87,7 +88,7 @@ a.downArrow {
 }
 
 .about-content {
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -108,14 +109,14 @@ a.downArrow {
 }
 
 .theader {
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 20px;
   padding-right: 2rem;
   order: 1;
 }
 
 .trow {
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 18px;
   padding-right: 2rem;
   order: 2;

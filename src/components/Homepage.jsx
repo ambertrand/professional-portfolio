@@ -5,35 +5,41 @@ import Col from 'react-bootstrap/Col';
 import headshot from '../img/Alex-circle.png';
 
 function HomePage() {
-    return (
-        <Container className="intro animate__animated animate__slideInUp">
-            <Row className="content">
-                <Col sm={4}>
-                    {/* Headshot  */}
-                    <div className="headshot-img">
-                        <img src={headshot} className="img-fluid" alt="Alex Headshot" />
-                    </div>
-                </Col>
-                <Col sm={8}>
-                {/* Name */}
-                <div className="name">
-                    <h1 className="display-3 text-white">Hi, I'm<br /><strong>Alex Bertrand</strong></h1>
-                </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col sm={12}>
-                    {/* Bio  */}
-                    <a href="#bio" className="downArrow animate__animated animate__bounce animate__infinite">
-                        <div>
-                            <i className="arrow fa fa-chevron-circle-down fa-3x" />
-                        </div>
-                    </a>
-
-                </Col>
-            </Row >
-        </Container >
-    )
+  return (
+    <Container className='intro animate__animated animate__slideInUp'>
+      <Row className='content'>
+        <Col sm={4}>
+          {/* Headshot  */}
+          <div className='headshot-img'>
+            <img src={headshot} className='img-fluid' alt='Alex Headshot' />
+          </div>
+        </Col>
+        <Col sm={8}>
+          {/* Name */}
+          <div className='name'>
+            <h1 className='display-3 text-white'>
+              Hello, I'm
+              <br />
+              <strong>Alex Bertrand</strong>
+            </h1>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          {/* Bio  */}
+          <a
+            href='#bio'
+            className='downArrow animate__animated animate__bounce animate__infinite'
+          >
+            <div>
+              <i className='arrow fa fa-chevron-circle-down fa-3x' />
+            </div>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
 
 export default HomePage;
