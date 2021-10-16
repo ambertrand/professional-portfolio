@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SkillsTable from './SkillsTable';
+import SkillsTable from './../homePage/SkillsTable';
 
 function Bio() {
   return (

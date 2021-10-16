@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import headshot from '../img/Alex-circle.png';
-import headshot from '../img/Alex-headshot.jpg';
+import headshot from '../../img/Alex-headshot.jpg';
 
 function HomePage() {
   return (
