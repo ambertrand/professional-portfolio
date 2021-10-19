@@ -33,14 +33,14 @@ function HomePage() {
       <Row>
         <Col sm={12}>
           {/* Bio  */}
-          {/* <a
+          <a
             href='#bio'
-            className='downArrow animate__animated animate__bounce animate__infinite'
+            // className='downArrow animate__animated animate__bounce animate__infinite'
           >
             <div>
               <i className='arrow fa fa-chevron-circle-down fa-3x' />
             </div>
-          </a> */}
+          </a>
         </Col>
       </Row>
     </Container>

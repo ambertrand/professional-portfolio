@@ -54,8 +54,8 @@ function Skills() {
       <Row>
         <Col sm={12}>
           <a href='/'>
-            <div className='upArrow'>
-              <i className='fa fa-chevron-circle-up fa-3x' />
+            <div className='arrow'>
+              <i className='upArrow fa fa-chevron-circle-up fa-3x' />
             </div>
           </a>
         </Col>

@@ -3,32 +3,43 @@
 }
 
 .App {
-  background-color: #086788;
+  /* background-color: #086788; */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: block;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   padding: 0;
 }
 
+/* Homeview  */
+.outerContainer {
+  position: relative;
+}
+
 /* Nav  */
+.navbar {
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
-  color: #fff;
-  font-size: 24px;
+  color: #000;
+  font-size: 28px;
 }
 
 /* Footer  */
 .footer {
-  background-color: #086788;
-  color: #fff;
-  position: fixed;
+  /* background-color: #086788; */
+  color: #000;
   display: flex;
+  position: absolute;
   justify-content: center;
-  bottom: 0px;
+  left: 0px;
+  bottom: 1%;
   width: 100vw;
 }
 
@@ -38,7 +49,7 @@ span.text {
 
 /* Homepage */
 .intro {
-  min-height: 95vh;
+  /* min-height: 95vh; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -56,25 +67,29 @@ img {
 
 .name {
   /* padding: 2rem 0 0 0; */
-  color: #fff;
+  color: #000;
 }
 
-/* a.downArrow {
+a.downArrow {
   display: flex;
   justify-content: center;
-} */
+}
 
-/* .animate__animated.animate__bounce {
+.animate__animated.animate__bounce {
   animation-duration: 2s;
-} */
+}
 
-/* .arrow {
+.arrow {
   position: relative;
   bottom: -5vh;
-  color: #fff;
-} */
+  color: #000;
+}
 
 /* Bio  */
+.about {
+  margin-top: 45%;
+}
+
 .about-me {
   background-color: #fff;
   min-height: 95vh;
@@ -126,7 +141,7 @@ img {
 
 .upArrow {
   display: none;
-  /* color: #086788; */
+  color: #000;
 }
 
 /* ProjCarousel  */
@@ -168,12 +183,7 @@ img {
 }
 
 .contactItem {
-  color: #ffffff;
+  color: #000;
   padding-bottom: 2rem;
   font-size: 20px;
-}
-
-/* Homeview  */
-.outerContainer {
-  position: relative;
 }

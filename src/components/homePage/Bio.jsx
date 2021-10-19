@@ -11,10 +11,10 @@ function Bio() {
       id='bio'
     >
       <Row>
-        <Col xs={12} sm={3}>
+        {/* <Col xs={12} sm={3}>
+        </Col> */}
+        <Col className='about' xs={12} sm={6}>
           <h2 className='about-title'>ABOUT</h2>
-        </Col>
-        <Col xs={12} sm={6}>
           <p className='about-content'>
             Full-stack engineer with management background that recently earned
             a certificate in full stack development from the University of New
