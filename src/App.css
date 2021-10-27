@@ -4,19 +4,15 @@
 
 .App {
   /* background-color: #086788; */
+  font-family: 'Varela Round', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: block;
   height: 100vh;
-  /* overflow: hidden; */
   margin: 0;
   padding: 0;
-}
-
-/* Homeview  */
-.outerContainer {
   position: relative;
 }
 
@@ -33,7 +29,6 @@
 
 /* Footer  */
 .footer {
-  /* background-color: #086788; */
   color: #000;
   display: flex;
   position: absolute;
@@ -49,29 +44,22 @@ span.text {
 
 /* Homepage */
 .intro {
-  /* min-height: 95vh; */
-  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.headshot-img {
-  max-width: 40rem;
-}
-
 img {
-  width: 75%;
+  width: 20rem;
 }
 
 .name {
-  /* padding: 2rem 0 0 0; */
   color: #000;
 }
 
 a.downArrow {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -87,7 +75,10 @@ a.downArrow {
 
 /* Bio  */
 .about {
-  margin-top: 45%;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  /* margin-top: 20%; */
 }
 
 .about-me {

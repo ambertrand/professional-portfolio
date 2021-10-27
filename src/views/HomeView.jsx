@@ -1,17 +1,17 @@
 import React from 'react';
-import Navbar from '../components/layout/Nav';
+// import Navbar from '../components/layout/Nav';
 import HomePage from '../components/homePage/Homepage';
 import About from '../components/homePage/Bio';
 import Footer from '../components/layout/Footer';
 
 const HomeView = () => {
   return (
-    <div className='outerContainer'>
-      <Navbar />
+    <>
+      {/* <Navbar /> */}
       <HomePage />
-      <About />
-      <Footer />
-    </div>
+      {/* <About />
+      <Footer /> */}
+    </>
   );
 };
 

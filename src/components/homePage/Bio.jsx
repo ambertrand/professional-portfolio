@@ -11,9 +11,7 @@ function Bio() {
       id='bio'
     >
       <Row>
-        {/* <Col xs={12} sm={3}>
-        </Col> */}
-        <Col className='about' xs={12} sm={6}>
+        <Col className='about' sm={12} md={8}>
           <h2 className='about-title'>ABOUT</h2>
           <p className='about-content'>
             Full-stack engineer with management background that recently earned
@@ -30,10 +28,7 @@ function Bio() {
             When I'm not working, you will find me exploring the outdoors such
             as running, cycling, skiing, hiking or golfing with my wife Nicole.
           </p>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={12}>
+
           <SkillsTable />
         </Col>
       </Row>

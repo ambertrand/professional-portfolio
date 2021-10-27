@@ -2,36 +2,53 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import headshot from '../img/Alex-circle.png';
-import headshot from '../../img/Alex-headshot.jpg';
+import Nav from 'react-bootstrap/Nav';
+import NavLink from 'react-bootstrap/NavLink';
+import headshot from '../../img/Alex-headshot-circle.png';
 
 function HomePage() {
   return (
-    <Container className='intro animate__animated animate__slideInUp'>
-      <Row className='content'>
-        <Col sm={4}>
-          {/* Headshot  */}
-          <div className='headshot-img'>
-            <img
-              src={headshot}
-              className='headshot img-fluid'
-              alt='Alex Headshot'
-            />
-          </div>
+    <Container>
+      <Nav className='navbar navbar-expand-lg'>
+        <div className='row'>
+          <Nav.Item className='col-md-4 col-sm-12'>
+            <NavLink href='/' className='link'>
+              Home
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item className='col-md-4 col-sm-12'>
+            <NavLink href='/projects' className='link'>
+              Projects
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item className='col-md-4 col-sm-12'>
+            <NavLink href='/contact' className='link'>
+              Contact
+            </NavLink>
+          </Nav.Item>
+        </div>
+      </Nav>
+
+      <Row className='content intro animate__animated animate__slideInUp'>
+        {/* Headshot  */}
+        <Col sm={12} md={4}>
+          {/* <div className='headshot-img'> */}
+          <img src={headshot} className='headshot' alt='Alex Headshot' />
+          {/* </div> */}
         </Col>
-        <Col>
-          {/* Name */}
-          <div className='name'>
-            <h1 className='display-3'>
-              Hello,
-              <br />
-              I'm <strong>Alex</strong>
-            </h1>
-          </div>
+
+        {/* Name */}
+        <Col sm={12} md={4}>
+          <h1 className='name'>
+            Hello,
+            <br />
+            I'm <strong>Alex</strong>
+          </h1>
         </Col>
       </Row>
+
       <Row>
-        <Col sm={12}>
+        <Col sm={12} md={6}>
           {/* Bio  */}
           <a
             href='#bio'
