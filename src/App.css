@@ -3,62 +3,75 @@
 }
 
 .App {
-  background-color: #086788;
+  /* background-color: #086788; */
+  font-family: 'Varela Round', sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: block;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav  */
+.navbar {
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
-  color: #ffffff;
-  font-size: 24px;
+  color: #000;
+  font-size: 28px;
 }
 
 /* Footer  */
 .footer {
-  background-color: #086788;
-  position: fixed;
   display: flex;
+  align-items: center;
   justify-content: center;
-  bottom: 0px;
+  position: absolute;
+  bottom: -15px;
   width: 100vw;
-}
-
-span.text {
+  color: #000;
+  font-weight: bold;
   font-size: 20px;
 }
 
 /* Homepage */
 .intro {
-  min-height: 95vh;
-  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.headshot-img {
-  max-width: 40rem;
+  margin-top: 2rem;
 }
 
 img {
-  width: 75%;
+  width: 20rem;
 }
 
 .name {
-  padding: 2rem 0 0 0;
+  margin-top: 2rem;
+  font-size: 5rem;
+  color: #000;
 }
 
-a.downArrow {
+.downArrow {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -67,63 +80,75 @@ a.downArrow {
 }
 
 .arrow {
-  position: relative;
-  bottom: -5vh;
-  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
 }
 
 /* Bio  */
-.about-me {
-  background-color: #ffffff;
-  min-height: 95vh;
-  border-radius: 10px;
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2rem;
 }
 
 .about-title {
-  color: #086788;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .about-content {
-  font-family: 'Varela Round', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: justify;
-  padding: 2rem 0 0 0;
+  padding-top: 1rem;
 }
 
 /* SkillsTable  */
 .tableHeader {
-  color: #086788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding-top: 1rem;
 }
 
 .skillsTable {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding-top: 1rem;
 }
 
 .theader {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  padding-right: 2rem;
-  order: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .trow {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
-  padding-right: 2rem;
-  order: 2;
+  font-size: 1rem;
 }
 
 .upArrow {
-  color: #086788;
+  color: #000;
+  margin-top: 5px;
 }
 
 /* ProjCarousel  */
@@ -165,12 +190,19 @@ a.downArrow {
 }
 
 .contactItem {
-  color: #ffffff;
+  color: #000;
   padding-bottom: 2rem;
   font-size: 20px;
 }
 
-/* Homeview  */
-.outerContainer {
-  position: relative;
+@media (min-width: 350px) {
+  .footer {
+    bottom: -6rem;
+  }
 }
+
+/* @media (min-width: 1275px) {
+  .footer {
+    left: -1rem;
+  }
+} */

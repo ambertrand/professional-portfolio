@@ -4,13 +4,13 @@ import ProjCarousel from '../components/ProjCarousel';
 import Footer from '../components/layout/Footer';
 
 const ProjectView = () => {
-    return(
-        <div className="outerContainer">
-            <Navbar />
-            <ProjCarousel />
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <ProjCarousel />
+      <Footer />
+    </>
+  );
+};
 
 export default ProjectView;

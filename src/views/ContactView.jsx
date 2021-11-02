@@ -4,13 +4,13 @@ import Contact from '../components/Contact';
 import Footer from '../components/layout/Footer';
 
 const ContactView = () => {
-    return(
-        <div className="outerContainer">
-            <Navbar />
-            <Contact />
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <Contact />
+      <Footer />
+    </>
+  );
+};
 
 export default ContactView;
