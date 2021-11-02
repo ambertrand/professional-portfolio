@@ -1,16 +1,16 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Footer() {
   return (
-    <footer className='footer'>
-      <div className='col-md-6 col-sm-12'>
-        <strong>
-          <span className='text'>
-            &copy; Copyright {new Date().getFullYear()}
-          </span>
-        </strong>
-      </div>
-    </footer>
+    <>
+      <Row className='footer'>
+        <Col sm={12} md={6}>
+          <span>&copy; Copyright {new Date().getFullYear()}</span>
+        </Col>
+      </Row>
+    </>
   );
 }
 

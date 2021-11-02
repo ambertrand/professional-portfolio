@@ -10,10 +10,21 @@
   justify-content: center;
   text-align: center;
   display: block;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
+}
+
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav  */
@@ -29,16 +40,14 @@
 
 /* Footer  */
 .footer {
-  color: #000;
   display: flex;
-  position: absolute;
+  align-items: center;
   justify-content: center;
-  left: 0px;
-  bottom: 1%;
+  position: absolute;
+  bottom: -15px;
   width: 100vw;
-}
-
-span.text {
+  color: #000;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -47,8 +56,7 @@ span.text {
   display: flex;
   justify-content: center;
   text-align: center;
-  /* margin-top: 10rem; */
-  margin-bottom: 10rem;
+  margin-top: 2rem;
 }
 
 img {
@@ -56,12 +64,12 @@ img {
 }
 
 .name {
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 5rem;
   color: #000;
 }
 
-a.downArrow {
+.downArrow {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,9 +83,6 @@ a.downArrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 5rem;
-  /* left: 15rem; */
   color: #000;
 }
 
@@ -91,20 +96,21 @@ a.downArrow {
   height: 100%;
   margin: 0;
   padding: 0;
-  /* position: relative; */
 }
 
 .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  top: 8rem;
-  /* left: 20rem; */
+  top: 2rem;
 }
 
 .about-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .about-content {
@@ -112,7 +118,7 @@ a.downArrow {
   flex-direction: row;
   justify-content: center;
   text-align: justify;
-  padding: 2rem 0 0 0;
+  padding-top: 1rem;
 }
 
 /* SkillsTable  */
@@ -142,6 +148,7 @@ a.downArrow {
 
 .upArrow {
   color: #000;
+  margin-top: 5px;
 }
 
 /* ProjCarousel  */
@@ -187,3 +194,15 @@ a.downArrow {
   padding-bottom: 2rem;
   font-size: 20px;
 }
+
+@media (min-width: 350px) {
+  .footer {
+    bottom: -6rem;
+  }
+}
+
+/* @media (min-width: 1275px) {
+  .footer {
+    left: -1rem;
+  }
+} */

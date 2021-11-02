@@ -22,10 +22,18 @@ function ProjCarousel() {
                     <Card.Text>
                       <strong>Tech Used:</strong> {info.tech}
                     </Card.Text>
-                    <Card.Link className='projLink' href={info.deployed} target='_blank'>
+                    <Card.Link
+                      className='projLink'
+                      href={info.deployed}
+                      target='_blank'
+                    >
                       Deployed App
                     </Card.Link>
-                    <Card.Link className='projLink' href={info.github} target='_blank'>
+                    <Card.Link
+                      className='projLink'
+                      href={info.github}
+                      target='_blank'
+                    >
                       View Code
                     </Card.Link>
                   </Card.Body>

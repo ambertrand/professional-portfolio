@@ -3,14 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SkillsTable from './../homePage/SkillsTable';
+import Footer from '../layout/Footer';
 
 function Bio() {
   return (
     <Container>
       <div className='animate__animated animate__slideInUp' id='bio'>
-        <Row>
-          <Col className='about' sm={12} md={6}>
-            <h2 className='about-title'>ABOUT</h2>
+        <a href='/'>
+          <i className='upArrow fa fa-chevron-circle-up fa-2x' />
+        </a>
+        <Row className='about'>
+          <Col sm={12} md={8}>
+            <h2 className='about-title'>ABOUT ME</h2>
             <p className='about-content'>
               Full-stack engineer with management background that recently
               earned a certificate in full stack development from the University
@@ -27,9 +31,9 @@ function Bio() {
               as running, cycling, skiing, hiking or golfing with my wife
               Nicole.
             </p>
-
             <SkillsTable />
           </Col>
+          <Footer />
         </Row>
       </div>
     </Container>

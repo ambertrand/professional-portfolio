@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -44,16 +43,6 @@ function Skills() {
               <br /> Teamwork, Problem-Solving
             </p>
           </div>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col sm={12} md={6}>
-          <a href='#home'>
-            <div className='arrow'>
-              <i className='upArrow fa fa-chevron-circle-up fa-3x' />
-            </div>
-          </a>
         </Col>
       </Row>
     </>

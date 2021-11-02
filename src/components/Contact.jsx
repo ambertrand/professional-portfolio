@@ -23,6 +23,7 @@ function Contact() {
             </strong>
             Resume
           </a>
+
           {/* GitHub  */}
           <a
             className='contactItem'
@@ -35,6 +36,7 @@ function Contact() {
             </strong>
             github.com/ambertrand
           </a>
+
           {/* LinkedIn  */}
           <a
             className='contactItem'
@@ -47,6 +49,7 @@ function Contact() {
             </strong>
             linkedin.com/in/alex-bertrand/
           </a>
+
           {/* Email  */}
           <a className='contactItem' href='mailto:alex.m.bertrand@gmail.com'>
             <strong>
