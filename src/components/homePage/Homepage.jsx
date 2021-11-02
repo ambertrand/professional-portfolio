@@ -13,7 +13,7 @@ function HomePage() {
         </Col>
 
         {/* Name */}
-        <Col sm={12} md={4}>
+        <Col sm={12} md={6}>
           <h1 className='name'>
             Hello, <br />
             I'm Alex
