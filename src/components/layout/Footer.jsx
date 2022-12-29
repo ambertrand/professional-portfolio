@@ -1,15 +1,11 @@
-import React from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from "react";
 
 function Footer() {
   return (
     <>
-      <Row className='footer'>
-        <Col sm={12} md={6}>
-          <span>&copy; Copyright {new Date().getFullYear()}</span>
-        </Col>
-      </Row>
+      <div className="footer">
+        <span>&copy; Copyright {new Date().getFullYear()}</span>
+      </div>
     </>
   );
 }
