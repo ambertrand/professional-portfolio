@@ -13,9 +13,8 @@ function Bio() {
               Hampshire.
             </li>
             <li className="list-item">
-              Transitioning into a development career with 1+ year experience
-              looking to create responsive and mobile-first applications with
-              stunning user experiences. Known for my strong work ethic and
+              Looking to create responsive and mobile-first applications with
+              stunning user experiences. I'm known for my strong work ethic and
               ability to learn quickly to help create solutions to modern
               technology problems.
             </li>
@@ -29,36 +28,30 @@ function Bio() {
       <section className="skills-table">
         <div className="skills-cols">
           <div className="skill-block">
-            <div className="header">
-              Languages &nbsp; <i className="fa fa-code fa-2x"></i>
-            </div>
+            <div className="header">Front-End</div>
             <p className="info">
-              HTML5, CSS3, SASS, <br /> JavaScript, TypeScript
+              HTML5, CSS3, SASS, <br /> JavaScript, React, Stencil
             </p>
           </div>
 
           <div className="skill-block">
-            <div className="header">
-              Tools &nbsp; <i className="fa fa-terminal fa-2x"></i>
-            </div>
+            <div className="header">Tools</div>
             <p className="info">
-              MongoDB, MySQL, Sitefinity, Adobe Creative Suite
+              Microsoft Azure & Teams, BrowserStack, Adobe Creative Suite
             </p>
           </div>
         </div>
 
         <div className="skills-cols">
           <div className="skill-block">
-            <div className="header">
-              Frameworks &nbsp; <i className="fa fa-code-fork fa-2x"></i>
-            </div>
-            <p className="info">React, Stencil, Nodejs, Express, Bootstrap</p>
+            <div className="header">Back-End</div>
+            <p className="info">
+              Node.js, Express, MySQL, NoSQL, Sequelize, Mongoose, Sitefinity
+            </p>
           </div>
 
           <div className="skill-block">
-            <div className="header">
-              Soft Skills &nbsp; <i className="fa fa-handshake-o fa-2x"></i>
-            </div>
+            <div className="header">Soft Skills</div>
             <p className="info">
               Communication, Teamwork, Organization, Problem-Solving
             </p>
