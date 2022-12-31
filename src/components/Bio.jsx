@@ -4,8 +4,8 @@ function Bio() {
   return (
     <>
       <section className="about">
-        <h1 className="about-title">ABOUT ME</h1>
-        <p className="about-content">
+        <h2 className="about-title">ABOUT ME</h2>
+        <div className="about-content">
           <ul>
             <li className="list-item">
               I'm a full-stack engineer with a management background that earned
@@ -23,7 +23,7 @@ function Bio() {
               as running, biking, skiing, or golfing with my family and puppy.
             </li>
           </ul>
-        </p>
+        </div>
       </section>
       <section className="skills-table">
         <div className="skills-cols">
