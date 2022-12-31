@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/layout/Nav";
-import HomePage from "../components/Homepage";
+import Bio from "../components/Bio";
 import Footer from "../components/layout/Footer";
 
-const HomeView = () => {
+const AboutView = () => {
   return (
     <>
       <Navbar />
-      <HomePage />
+      <Bio />
       <Footer />
     </>
   );
 };
 
-export default HomeView;
+export default AboutView;

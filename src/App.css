@@ -1,41 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
 * {
   box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+  background-color: #e5e5e5;
+  color: #000;
 }
 
 .App {
-  /* background-color: #086788; */
-  font-family: 'Varela Round', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-.outerContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 /* Nav  */
-.navbar {
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+}
+
+.initials {
+  color: #000;
+  margin: 1rem 2rem;
+  font-size: 2.5rem;
+}
+
+.initials:hover {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.7;
 }
 
 .link {
   color: #000;
-  font-size: 28px;
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.7;
 }
 
 /* Footer  */
@@ -44,166 +49,213 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -15px;
-  width: 100vw;
+  bottom: 0;
+  width: 100%;
   color: #000;
   font-weight: bold;
-  font-size: 20px;
 }
 
 /* Homepage */
 .intro {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-img {
-  width: 20rem;
-}
-
-.name {
-  margin-top: 2rem;
-  margin-left: 5rem;
-  font-size: 5rem;
-  color: #000;
-}
-
-.downArrow {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 2rem 0;
 }
 
-.animate__animated.animate__bounce {
-  animation-duration: 2s;
+.description {
+  max-width: 450px;
+  width: 100%;
 }
 
-.arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
+.company {
+  color: #087482;
+  font-weight: 700;
+}
+
+.company:hover {
+  color: #087482;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 /* Bio  */
-.bio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .about {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 2rem;
 }
 
 .about-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem 0 0 0;
+  margin-top: 1rem;
 }
 
 .about-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: justify;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 1rem;
+}
+
+.list-item {
+  list-style: none;
+  margin-bottom: 0.75rem;
 }
 
 /* SkillsTable  */
-.tableHeader {
+.skills-table {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  text-align: center;
-  padding-top: 1rem;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.skillsTable {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 1rem;
+.skills-cols {
+  margin: 0 2rem;
 }
 
-.theader {
+.skill-block {
+  max-height: 85px;
+  height: 100%;
+}
+
+.skill-block:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.header {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.trow {
-  font-size: 1rem;
-}
-
-.upArrow {
-  color: #000;
-  margin-top: 5px;
+.info {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* ProjCarousel  */
 .projects {
-  min-height: 95vh;
-  width: 100vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-bottom: 20px;
+  margin-top: 2rem;
 }
 
 /* ProjCard */
 .projCard {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 2.5rem;
+  display: inline-flex;
+  max-width: 650px;
+  margin: 1rem auto;
+}
+
+.projImg {
+  width: 20rem;
+}
+
+.card-body,
+.card-header,
+.card-text,
+strong {
+  background-color: #fff;
+}
+
+.card-header {
+  border-bottom: none;
 }
 
 .projLink {
-  color: #086788;
-  font-size: 18px;
+  color: #000;
   font-weight: bold;
+  margin-right: 1rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  border: none;
+  outline: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: #fff;
 }
 
 /* Contact  */
-.contactHeader {
-  top: 25vh;
-}
-
-.contactInfo {
-  min-height: 95vh;
-  width: 100vw;
+.contact-info {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem;
 }
 
-.contactItem {
-  color: #000;
-  padding-bottom: 2rem;
-  font-size: 20px;
-}
-
-@media (min-width: 350px) {
-  .footer {
-    bottom: -6rem;
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
   }
 }
 
-/* @media (min-width: 1275px) {
+@media (max-width: 425px) {
   .footer {
-    left: -1rem;
+    position: relative;
   }
-} */
+
+  .initials {
+    font-size: 1.5rem;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+
+  .description {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  ul {
+    padding: 0 1rem;
+  }
+
+  .skills-table {
+    flex-direction: column;
+  }
+
+  .skills-cols {
+    margin: 0 0.5rem 1.5rem;
+  }
+
+  .skill-block:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .header {
+    font-size: 1rem;
+  }
+
+  .projCard {
+    max-width: 350px;
+  }
+
+  .projImg {
+    width: 10rem;
+  }
+
+  .card-body {
+    font-size: 0.75rem;
+  }
+
+  .card-text strong {
+    font-size: 0.75rem;
+  }
+
+  .projLink {
+    font-size: 0.625rem;
+  }
+}
