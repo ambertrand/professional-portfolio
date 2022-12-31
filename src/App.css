@@ -5,7 +5,6 @@
   font-family: "Muli", sans-serif;
   background-color: #e5e5e5;
   color: #000;
-  /* background-color: #6e8894; */
 }
 
 .App {
@@ -186,32 +185,6 @@ strong {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   color: #fff;
-}
-
-.project-btns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1.5rem;
-}
-*/ .btn {
-  border: 1px solid #000;
-  border-radius: 0.5rem;
-  background-color: #fff;
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
-}
-
-.btn:hover,
-.btn:focus,
-.btn i:hover,
-.btn i:focus {
-  opacity: 0.7;
-  background-color: #ccc;
-}
-
-.btn i {
-  background-color: inherit;
 }
 
 /* Contact  */
