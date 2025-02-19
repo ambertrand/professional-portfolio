@@ -49,18 +49,7 @@ const portfolio = [
     tech: "HTML, CSS, Javascript, Bootstrap, JQuery, Moment.js, Openweather API",
     github: "https://github.com/ambertrand/Weather-Dashboard",
     deployed: "https://ambertrand.github.io/Weather-Dashboard/",
-  },
-  // {
-  //   id: 6,
-  //   key: 6,
-  //   image: "https://i.imgur.com/MMxvj1s.png",
-  //   title: "While You're There",
-  //   description:
-  //     "Have you ever gone shopping for someone and forgot something?  We definitely have!  Now with Covid-19 it is more important than ever to remember shopping items in one trip.  Which is exactly what brought us to the idea for While You're There.",
-  //   tech: "React, React-Bootstrap, Auth0, FontAwesome, Socket.io, NodeJS, MySQL, Sequelize, Express, nodemon, Balsamiq, Trello",
-  //   github: "https://github.com/ambertrand/While-Youre-There",
-  //   deployed: "https://while-youre-there.herokuapp.com/",
-  // },
+  }
 ];
 
 export default portfolio;
