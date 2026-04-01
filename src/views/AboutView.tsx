@@ -3,11 +3,13 @@ import Navbar from "../components/layout/Nav";
 import Bio from "../components/Bio";
 import Footer from "../components/layout/Footer";
 
-const AboutView = () => {
+const AboutView: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Bio />
+      <main id="main-content">
+        <Bio />
+      </main>
       <Footer />
     </>
   );

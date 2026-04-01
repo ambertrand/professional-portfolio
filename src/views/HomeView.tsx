@@ -3,11 +3,13 @@ import Navbar from "../components/layout/Nav";
 import HomePage from "../components/Homepage";
 import Footer from "../components/layout/Footer";
 
-const HomeView = () => {
+const HomeView: React.FC = () => {
   return (
     <>
       <Navbar />
-      <HomePage />
+      <main id="main-content">
+        <HomePage />
+      </main>
       <Footer />
     </>
   );
