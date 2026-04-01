@@ -1,7 +1,17 @@
-const portfolio = [
-  {
+import { PortfolioItem } from "../types/portfolio";
+
+const portfolio: PortfolioItem[] = [
+    {
     id: 1,
-    key: 1,
+    image: "https://i.imgur.com/1g2ezFh.png",
+    title: "Colorblock Garden Planner (In-development)",
+    description: "An interactive garden planning application that helps users design and manage their garden layouts with seasonal planning and resource tracking.",
+    tech: "React Native, TypeScript, Tailwind, Firebase",
+    github: "https://github.com/Alpine-Tech-Devs/garden-app",
+    // deployed: "https://ambertrand.github.io/PW-Generator/",
+  },
+  {
+    id: 2,
     image: "https://i.imgur.com/1g2ezFh.png",
     title: "Password Generator",
     description: "Generate a random password based on the criteria selected.",
@@ -10,8 +20,7 @@ const portfolio = [
     deployed: "https://ambertrand.github.io/PW-Generator/",
   },
   {
-    id: 2,
-    key: 2,
+    id: 3,
     image: "https://i.imgur.com/YBIBT19.png",
     title: "Insect Game",
     description: "Test your skills at squashing all the bugs!",
@@ -20,8 +29,7 @@ const portfolio = [
     deployed: "https://ambertrand.github.io/Insect-Game/",
   },
   {
-    id: 3,
-    key: 3,
+    id: 4,
     image: "https://i.imgur.com/uu7ZMWj.png",
     title: "Todo List",
     description: "Make a todo list, cross off and delete items once completed",
@@ -30,8 +38,7 @@ const portfolio = [
     deployed: "https://ambertrand.github.io/Todo-List/",
   },
   {
-    id: 4,
-    key: 4,
+    id: 5,
     image: "https://i.imgur.com/V1z1Ftj.png",
     title: "Quiz App",
     description: "Test your knowledge at some coding questions",
@@ -40,8 +47,7 @@ const portfolio = [
     deployed: "https://ambertrand.github.io/Quiz-App/",
   },
   {
-    id: 5,
-    key: 5,
+    id: 6,
     image: "https://i.imgur.com/liWvzNJ.png",
     title: "Weather Dashboard",
     description:
