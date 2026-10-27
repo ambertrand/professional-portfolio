@@ -8,7 +8,7 @@ const Bio: React.FC = () => {
         <div className="about-content">
           <ul>
             <li className="list-item">
-              Detail-oriented and solution-driven Full-Stack Software Engineer with 4+ years of experience building scalable, high-performance, and secure web applications across frontend and backend architectures. Proven in delivering modern, API-driven SaaS products that enhance user experience and create measurable business impact. Experienced collaborating closely with product, design, and cross-functional teams to ship reliable and maintainable software. Passionate about crafting intuitive software that solves real-world problems and scales with growing user and business needs.
+              Full-Stack Software Engineer with 5 years of experience designing, developing, and optimizing scalable web applications across frontend and backend systems. Skilled in TypeScript, JavaScript, React, Angular, Node.js, Python, and AWS, with hands-on experience in cloud infrastructure, REST APIs, authentication, and legacy application modernization. Experienced in delivering features end-to-end, from development and deployment to production monitoring, troubleshooting, and continuous improvement. Focused on building secure, maintainable, high-performance applications that enhance user experience and support business objectives.
             </li>
           </ul>
         </div>
@@ -18,7 +18,7 @@ const Bio: React.FC = () => {
           <div className="skill-block">
             <div className="header">Languages</div>
             <p className="info">
-              JavaScript, TypeScript, Python, PHP, C#, HTML5, CSS3/SASS, 
+              JavaScript, TypeScript, Python, PHP, C#, HTML5, CSS3, SASS 
             </p>
           </div>
 
@@ -32,10 +32,18 @@ const Bio: React.FC = () => {
           <div className="skill-block">
             <div className="header">Cloud & DevOps</div>
             <p className="info">
-              AWS(EC2, RDS, EFS, Lambda, S3), Docker
+              AWS EC2, RDS, EFS, Lambda, S3, Docker, CI/CD pipelines
+            </p>
+          </div>
+        
+          <div className="skill-block">
+            <div className="header">Monitoring & Observability</div>
+            <p className="info">
+              AWS CloudWatch, Sentry, Pingdom, PostHog
             </p>
           </div>
         </div>
+
 
         <div className="skills-cols">
           <div className="skill-block">
@@ -49,14 +57,21 @@ const Bio: React.FC = () => {
           <div className="skill-block">
             <div className="header">Back-End</div>
             <p className="info">
-              Node.js, Express, RESTful API Development
+              Node.js, Express, REST API Design, Serverless Architecture
             </p>
           </div>
 
           <div className="skill-block">
             <div className="header">Databases</div>
             <p className="info">
-              MySQL, MongoDB, Relational & Non-Relational Databases
+              MySQL, PostgreSQL, MongoDB, Relational & Non-Relational Databases
+            </p>
+          </div>
+
+          <div className="skill-block">
+            <div className="header">CMS & eCommerce</div>
+            <p className="info">
+              Umbraco, Magento, MODX, Drupal
             </p>
           </div>
         </div>

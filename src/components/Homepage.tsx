@@ -6,8 +6,8 @@ const HomePage: React.FC = () => {
       <section className="intro">
         <h1>Hi, I’m Alex.</h1>
         <p className="intro-description">
-          Full Stack Software Engineer building scalable SaaS that drives real business impact.
-          Currently I’m a Software Engineer focused on modernizing and securing web & mobile applications at <a href="https://www.theatomgroup.com/" target="_blank" rel="noopener noreferrer">The ATOM Group</a>.
+          Full-Stack Software Engineer with 5 years of experience designing and shipping secure,
+          scalable web and mobile products that improve user experience and drive business value.
         </p>
       </section>
 
